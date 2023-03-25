@@ -1,4 +1,21 @@
- {
-  "author": "Jane Doe",
-  "description": "A project that does something awesome",
+{
+  "dependencies": {
+    "nodejs": "^0.0.0",
+    "yargs": "^17.6.2"
+  },
+  "name": "btvn",
+  "version": "1.0.0",
+  "description": "todolist",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "app/index.js",
+    "dev": "nodemon app/index.js",
+    "command-test": "node app/index.js test"
+  },
+  "author": "dinh",
+  "license": "ISC"
 }
